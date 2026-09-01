@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=IBM+Plex+Mono:wght@400;600;700&display=swap');
+
 :root {
   --hp: #e5484d;
   --gold: #ffc233;
@@ -13,7 +15,7 @@ html, body {
   height: 100%;
   background: #0a0912;
   color: var(--ink);
-  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-family: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   overflow: hidden;
 }
 #app { position: fixed; inset: 0; }
@@ -88,7 +90,7 @@ html, body {
 }
 #banner {
   position: absolute; top: 20%; left: 0; right: 0; text-align: center;
-  font-family: Georgia, "Times New Roman", serif; font-size: 44px; letter-spacing: 0.14em; text-transform: uppercase;
+  font-family: Cinzel, Georgia, "Times New Roman", serif; font-weight: 700; font-size: 44px; letter-spacing: 0.14em; text-transform: uppercase;
   opacity: 0; text-shadow: 0 2px 14px #000; transition: opacity 0.6s;
 }
 #banner small { display: block; font-family: inherit; font-size: 14px; letter-spacing: 0.35em; color: #c9c5d9; margin-top: 10px; }
@@ -99,7 +101,7 @@ html, body {
 }
 #overlay.hidden { opacity: 0; pointer-events: none; }
 #overlay .card { text-align: center; max-width: 600px; padding: 32px; }
-#overlay h1 { font-family: Georgia, "Times New Roman", serif; font-size: 58px; letter-spacing: 0.16em; margin: 0 0 8px; text-transform: uppercase; line-height: 1.05; }
+#overlay h1 { font-family: Cinzel, Georgia, "Times New Roman", serif; font-weight: 700; font-size: 58px; letter-spacing: 0.16em; margin: 0 0 8px; text-transform: uppercase; line-height: 1.05; }
 #overlay h1.dead { color: var(--hp); }
 #overlay h1.win { color: var(--gold); }
 #overlay p { margin: 6px 0; color: #c9c5d9; font-size: 14px; }
